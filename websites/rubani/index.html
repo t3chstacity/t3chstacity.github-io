@@ -1,25 +1,3 @@
-<?php
-// Database configuration
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "rubani";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-// Fetch uploaded images from the database
-$result = $conn->query("SELECT * FROM aircrafts ORDER BY aId ASC");
-
-?>
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -562,13 +540,14 @@ $result = $conn->query("SELECT * FROM aircrafts ORDER BY aId ASC");
         <!-- Container -->
         <div class="products-container">
             <!-- List of items starts here -->
-            
-        <?php
-        // Display uploaded images in the table
-        while ($row = $result->fetch_assoc()) {
-            echo "<div class='box'><img id = 'uploaded_img' src='{$row['image']}'></img>{$row['fullname']}<br>{$row['description']}<br>{$row['price']}</div>";
-        }
-        ?>
+            <div class='box'>
+                <img id = 'uploaded_img' src='uploads/aeroplane_2.png'></img>
+            </div>
+
+            <div class='box'>
+                <img id = 'uploaded_img' src='uploads/hero_image.jpg'></img>
+            </div>
+
 
             
             

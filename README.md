@@ -13,6 +13,6 @@ This website is a mobile-friendly and responsive website for a portfolio page. I
 - JavaScript
 - PHP
 
-## Contact
+# Contact
 
 For any questions or feedback, please contact (techstacity.yt@gmail.com).

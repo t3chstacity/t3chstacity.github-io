@@ -7,7 +7,7 @@ This website is a mobile-friendly and responsive website for a portfolio page. I
 - Responsive design that looks great on any device.
 - Interactive menus with images and descriptions of each item.
 
-### Technology
+## # Technology
 
 - HTML5/CSS3
 - JavaScript

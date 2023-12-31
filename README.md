@@ -1,6 +1,6 @@
 # Responsive Coffee Website
 
-This website is a mobile-friendly and responsive website for a coffee shop. It allows visitors to explore the menu items, and contact the business. 
+This website is a mobile-friendly and responsive website for a portfolio page. It allows potential and prospective clients to explore the menu items, and contact the business. 
 
 ## Features
 
@@ -13,7 +13,8 @@ This website is a mobile-friendly and responsive website for a coffee shop. It a
 
 - HTML5/CSS3
 - JavaScript
+- PHP
 
 ## Contact
 
-For any questions or feedback, please contact (Nightburn2003@gmail.com).
+For any questions or feedback, please contact (techstacity.yt@gmail.com).

@@ -1,4 +1,4 @@
-# Responsive Coffee Website
+# Responsive Portfolio Website
 
 This website is a mobile-friendly and responsive website for a portfolio page. It allows potential and prospective clients to explore the menu items, and contact the business. 
 

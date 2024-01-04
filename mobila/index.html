@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobila | App Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 0;
+            width: 100%;
+            padding-left: 30px;
+            position: fixed;
+            text-align: left;
+            z-index: 1;
+        }
+
+        .property-listing {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .property-listing a{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            text-decoration: none;
+        }
+
+        .property-card {
+            width: 300px;
+            margin: 5px;
+            margin-top: 100px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .property-card:hover {
+            transform: scale(1.05);
+        }
+
+        .property-image {
+            width: 100%;
+            height: 150px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .property-details {
+            padding: 20px;
+        }
+
+        .property-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .property-description {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .property-price {
+            font-size: 1.2em;
+            color: #2ecc71; /* Green color for price */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mobila - App Development</h1>
+    </header>
+
+    <div class="property-listing">
+        <div class='property-card'>
+            <div class="property-image" style="background-image: url(uploads/houseplan1.jpg);"></div>
+            <div class="property-details">
+                <div class="property-title">Techstacity</div>
+                <div class="property-description">Helping connect with Techstacity clients for modern creative services</div>
+                <div class="property-price"><a href = "https://www.mediafire.com/file/vmpvkyqi4qdgczo/Techstacity.apk/file" target = "blank">Get this App</a></div>
+            </div>
+        </div>
+
+        <div class='property-card'>
+            <div class="property-image" style="background-image: url(uploads/houseplan1.jpg);"></div>
+            <div class="property-details">
+                <div class="property-title">Kifeee App</div>
+                <div class="property-description">Predecessor to Yafreeka App. Building a community of men</div>
+                <div class="property-price"><a href = "https://www.mediafire.com/file/sz2d561bkdp4et6/Kifeee.apk/file" target = "blank">Get this App</a></div>
+            </div>
+        </div>
+
+        <div class='property-card'>
+            <div class="property-image" style="background-image: url(uploads/houseplan1.jpg);"></div>
+            <div class="property-details">
+                <div class="property-title">Julie's Honey</div>
+                <div class="property-description">Outsourcing raw and sweetest honey has never been this easier</div>
+                <div class="property-price"><a href = "#">Still in development</a></div>
+            </div>
+        </div>
+
+        <div class='property-card'>
+            <div class="property-image" style="background-image: url(uploads/houseplan1.jpg);"></div>
+            <div class="property-details">
+                <div class="property-title">Watinda Ata</div>
+                <div class="property-description">Find your Kamba soulmate. Let the world flourish on love</div>
+                <div class="property-price"><a href = "#">Still in development</a></div>
+            </div>
+        </div>
+
+
+        <?php
+    }
+} else {
+    echo "No items found.";
+}
+
+        ?>  
+        
+        </div>        
+        
+        <!-- Add more property cards as needed -->
+
+    <footer>
+        &copy; 2024 Mobila Technologies. Developed by Techstacity
+    </footer>
+
+</body>
+</html>

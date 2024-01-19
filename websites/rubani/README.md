@@ -1,6 +1,6 @@
-# Responsive Coffee Website
+# Responsive Rubani Website
 
-This website is a mobile-friendly and responsive website for a coffee shop. It allows visitors to explore the menu items, and contact the business. 
+This website is a mobile-friendly and responsive website for aviation listings. It allows visitors to explore the menu items, and contact the business. 
 
 ## Features
 

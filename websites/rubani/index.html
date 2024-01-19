@@ -616,7 +616,11 @@
 
     <!-- Copyright -->
     <div class="copyright">
-        <p>(C) 2023 Techstacity. Not Affiliated with Aviator!</p>
+        <p id = 'date'>(C) 2023 Techstacity. Not Affiliated with Aviator!</p>
+
+        <script>
+            document.getElementById("date").innerHTML = '&copy; ' + new Date().getFullYear() + ' Techstacity. Not Affiliated with Aviator!';
+        </script>
     </div>
 
 	<!-- Link to JS -->

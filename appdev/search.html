@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .search-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 400px;
+        }
+
+        .search-bar {
+            width: 100%;
+            padding: 10px;
+            font-size: 1em;
+            border: none;
+            border-bottom: 1px solid #ddd;
+            outline: none;
+        }
+
+        .search-results {
+            padding: 20px;
+        }
+
+        .property-card {
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .property-card:hover {
+            transform: scale(1.05);
+        }
+
+        .property-image {
+            width: 100%;
+            height: 150px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .property-details {
+            padding: 20px;
+        }
+
+        .property-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .property-description {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .property-price {
+            font-size: 1.2em;
+            color: #2ecc71; /* Green color for price */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search for properties...">
+        <div class="search-results">
+            <!-- Display search results here -->
+            <div class="property-card">
+                <div class="property-image" style="background-image: url('property1.jpg');"></div>
+                <div class="property-details">
+                    <div class="property-title">Beautiful Home with Garden</div>
+                    <div class="property-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget...</div>
+                    <div class="property-price">$300,000</div>
+                </div>
+            </div>
+
+            <!-- Add more property cards as needed -->
+        </div>
+    </div>
+
+</body>
+</html>
